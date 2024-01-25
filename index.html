@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falling Leters</title>
+    <style>
+        body
+        {
+            height: 90vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-color: rgb(0, 140, 255);
+        }
+        .a1 {
+            height: 40vh;
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+          
+        }
+        .a1 span
+        {
+            animation-name: animate-name;
+            opacity: 0;
+            animation-duration: 1s;
+            font-size: 65px;
+            font-weight: 800;
+            letter-spacing: 10px; 
+            animation-fill-mode: forwards;
+        }
+        .a1 span:nth-child(1)
+        {
+            animation-delay: 0.5s;
+            color: rgb(3, 2, 3);
+        }
+        .a1 span:nth-child(2)
+        {
+            animation-delay: 1s;
+        }
+        .a1 span:nth-child(3)
+        {
+            animation-delay: 1.5s;
+        }
+        .a1 span:nth-child(4)
+        {
+            animation-delay: 2s;
+        }
+        .a1 span:nth-child(5)
+        {
+            animation-delay: 2.5s;
+        }
+        .a1 span:nth-child(6)
+        {
+            animation-delay: 3s;
+        }
+        .a1 span:nth-child(7)
+        {
+            animation-delay: 3.5s;
+        }
+        .a1 span:nth-child(8)
+        {
+            animation-delay: 4s;
+        }
+        .a1 span:nth-child(9)
+        {
+            animation-delay: 4.5s;
+        }
+       h2
+       {
+        position: relative;
+        top: -15vh;
+        animation-name: dev-text;
+        animation-duration: 2s;
+        animation-delay: 2s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+       }
+       @keyframes dev-text
+       {
+        
+       
+    
+       
+       }
+
+      
+        @keyframes animate-name {
+         
+            0%
+            {
+                opacity: 990;
+                transform: translateY(-990px);
+            }
+            100%
+            {
+                opacity: 71;
+              
+            }
+
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="a1">
+            
+            <span>A</span>
+            <span>J</span>
+            <span>A</span>
+            <span>Y</span>
+            <span>R</span>
+            <span>E</span>
+            <span>D</span>
+            <span>D</span>
+            <span>Y</span>
+        </div>
+    </div>
+</body>
+</html>
